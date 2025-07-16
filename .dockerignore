@@ -1,0 +1,9 @@
+.DS_Store
+.git
+.gitlab
+.husky
+.idea
+node_modules
+README.md
+reports
+.gitlab-ci.yml
