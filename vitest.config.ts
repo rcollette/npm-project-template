@@ -11,7 +11,7 @@ export default defineConfig({
       junit: "./reports/junit/results.xml", // Path to the JUnit report file
     },
     coverage: {
-      reporter: ["text", "lcov", "cobertura", ""],
+      reporter: ["text", "lcov", "cobertura"],
       reportsDirectory: "./reports/coverage",
       thresholds: {
         lines: 100,
