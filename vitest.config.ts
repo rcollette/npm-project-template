@@ -14,10 +14,10 @@ export default defineConfig({
       reporter: ["text", "lcov", "cobertura", ""],
       reportsDirectory: "./reports/coverage",
       thresholds: {
-        lines: 100, // require ≥ 80% lines covered
-        functions: 100, // require ≥ 75% functions covered
-        branches: 100, // require ≥ 70% branches covered
-        statements: 100, // require ≥ 80% statements covered
+        lines: 100,
+        functions: 100,
+        branches: 100,
+        statements: 100,
       },
     },
     typecheck: {
